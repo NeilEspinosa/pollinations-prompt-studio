@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pollinations Prompt Studio</title>
+  <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <h1>Pollinations • Prompt Studio</h1>
+      <p class="subtitle">Curate. Generate. Share. (Static demo using Pollinations)</p>
+    </div>
+    <div class="meta">
+      <a class="button" id="btn-demo-issues" href="#" target="_blank">Repo</a>
+      <a class="button" id="btn-demo" href="#" target="_blank">Open Demo</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="controls">
+      <label for="prompt-input">Prompt</label>
+      <input id="prompt-input" placeholder="e.g. futuristic neon city at dusk, cinematic, 35mm" />
+
+      <div class="row">
+        <label for="preset-select">Preset</label>
+        <select id="preset-select"></select>
+
+        <label for="count">Variations</label>
+        <input id="count" type="number" min="1" max="12" value="6" />
+      </div>
+
+      <div class="row">
+        <button id="generate" class="primary">Generate Gallery</button>
+        <button id="save-favs">Save Gallery Locally</button>
+        <button id="clear-gallery">Clear Saved</button>
+      </div>
+
+      <div class="share">
+        <label>Shareable link</label>
+        <input id="share-link" readonly />
+        <button id="copy-link">Copy</button>
+      </div>
+    </section>
+
+    <section class="gallery-wrap">
+      <div id="gallery" class="gallery"></div>
+    </section>
+
+    <section class="saved">
+      <h3>Saved / Favorites</h3>
+      <div id="savedGallery" class="gallery"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>Uses Pollinations prompt images — demo only. Replace this repo's screenshots/GIFs in the root to make a strong submission.</small>
+  </footer>
+
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>
