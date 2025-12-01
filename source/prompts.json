@@ -1,0 +1,32 @@
+[
+  {
+    "id": "cinematic-city",
+    "label": "Cinematic Cyberpunk City",
+    "prompt": "futuristic neon city at dusk, rainy streets, cinematic lighting, ultra-detailed, 35mm lens, volumetric fog, reflections"
+  },
+  {
+    "id": "fantasy-landscape",
+    "label": "Epic Fantasy Landscape",
+    "prompt": "epic fantasy landscape, dramatic mountains, golden hour, painterly, high detail, soft lighting, atmospheric perspective"
+  },
+  {
+    "id": "studio-portrait",
+    "label": "Studio Portrait",
+    "prompt": "studio portrait of a character, Rembrandt lighting, 85mm, high detail skin texture, editorial fashion, shallow depth of field"
+  },
+  {
+    "id": "watercolor",
+    "label": "Watercolor Illustration",
+    "prompt": "hand-painted watercolor illustration, delicate brushwork, soft colors, organic textures, high detail"
+  },
+  {
+    "id": "isometric-game-asset",
+    "label": "Isometric Game Asset",
+    "prompt": "isometric game scene, vibrant colors, game-ready asset, clean shading, crisp lines, high contrast"
+  },
+  {
+    "id": "vintage-film",
+    "label": "Vintage Film Photo",
+    "prompt": "vintage film photograph, grainy, warm tones, 50mm prime, film emulation, subtle light leaks"
+  }
+]
